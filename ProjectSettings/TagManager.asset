@@ -3,16 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Projectile
+  - Enemy
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - bomboclaut
   - Water
   - UI
-  - 
-  - 
+  - ineedmorebullet
+  - burger
   - 
   - 
   - 
