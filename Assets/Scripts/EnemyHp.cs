@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyHealth : MonoBehaviour
+public class EnemyHp : MonoBehaviour
 {
     public int health = 100; // Enemy health points
     public int scoreValue = 100; // Score value when this enemy is destroyed
     public ScoreManager scoreManager; // Reference to the ScoreManager script
-
+    public string VictoryScene;
     // Method to handle enemy damage
     public void TakeDamage(int damageAmount)
     {
@@ -20,6 +20,8 @@ public class EnemyHealth : MonoBehaviour
     // Method to handle enemy death
     void Die()
     {
+        SceneManager.LoadScene(VictoryScene);
+
         // Increase the score upon enemy death
         if (scoreManager != null)
         {

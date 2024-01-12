@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab142b29740020f48a3d26db512380ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level2
+  sceneName: 
   sceneName2: MainMenu
   sceneName3: 
 --- !u!114 &20825469
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 735872749}
   - component: {fileID: 735872748}
   m_Layer: 5
-  m_Name: MainMenu
+  m_Name: MainMenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

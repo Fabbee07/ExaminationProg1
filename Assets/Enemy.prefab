@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -4432935915139569993}
   - component: {fileID: 4092863678160381517}
   - component: {fileID: 1509646176708101352}
-  - component: {fileID: 58387671146039043}
   - component: {fileID: 7645274964221370208}
+  - component: {fileID: 4459875270591527185}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -189,22 +189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
---- !u!114 &58387671146039043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2193591062842809344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0660393221f3d444cabc95ad60a2ccc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 5
-  scoreValue: 100
-  scoreManager: {fileID: 1509646176708101352}
-  VictoryScene: VictoryScene
 --- !u!114 &7645274964221370208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,4 +203,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 6331960155982698811, guid: 8d3813b23d7818a45a05a3b93d98cbca, type: 3}
   firePoint: {fileID: 8249983848400524417}
-  spawnInterval: 1
+  spawnInterval: 2
+--- !u!114 &4459875270591527185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193591062842809344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de7307302f05b0489ae20485c446b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  scoreValue: 100
+  scoreManager: {fileID: 1509646176708101352}
+  VictoryScene: VictoryScene
